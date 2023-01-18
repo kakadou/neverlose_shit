@@ -5721,13 +5721,13 @@ void ImGui::RenderWindowDecorations(ImGuiWindow* window, const ImRect& title_bar
             PushFont( g.IO.Fonts->Fonts[ 5 ] );
             window->DrawList->AddText( window->Pos + ImVec2(5, 5), ImColor(Colors::Accent), "L" );
             PopFont( );
-            window->DrawList->AddText( window->Pos + ImVec2( 20, 3 ), ImColor( Colors::TextActive ), "About Neverlose" );
+            window->DrawList->AddText( window->Pos + ImVec2( 20, 3 ), ImColor( Colors::TextActive ), "About ezcrack" );
             window->DrawList->AddLine( window->Pos + ImVec2( 0, 20 ), window->Pos + ImVec2( window->Size.x, 20 ), ImColor( Colors::Borders ) );
 
             PushFont( g.IO.Fonts->Fonts[ 1 ] );
             if (Colors::theme != 2)
-                window->DrawList->AddText(window->Pos + ImVec2(window->Size.x / 2.f - CalcTextSize("NEVERLOSE.CC").x / 2.f - 1, 20 + 36 - CalcTextSize("NEVERLOSE.CC").y / 2.f - 1), ImColor(Colors::Accent), "NEVERLOSE.CC");
-            window->DrawList->AddText( window->Pos + ImVec2( window->Size.x / 2.f - CalcTextSize( "NEVERLOSE.CC" ).x / 2.f, 20 + 36 - CalcTextSize( "NEVERLOSE.CC" ).y / 2.f), ImColor( Colors::TextActive ), "NEVERLOSE.CC" );
+                window->DrawList->AddText(window->Pos + ImVec2(window->Size.x / 2.f - CalcTextSize("EZCRACK.CC").x / 2.f - 1, 20 + 36 - CalcTextSize("EZCRACK.CC").y / 2.f - 1), ImColor(Colors::Accent), "EZCRACK.CC");
+            window->DrawList->AddText( window->Pos + ImVec2( window->Size.x / 2.f - CalcTextSize( "EZCRACK.CC" ).x / 2.f, 20 + 36 - CalcTextSize( "EZCRACK.CC" ).y / 2.f), ImColor( Colors::TextActive ), "EZCRACK.CC" );
             PopFont( );
             window->DrawList->AddLine( window->Pos + ImVec2( 0, 92 ), window->Pos + ImVec2( window->Size.x, 92 ), ImColor( Colors::Borders ) );
 
@@ -5818,7 +5818,7 @@ void ImGui::RenderMainWindowDecorations( ImGuiWindow* window, const ImRect& titl
     window->DrawList->AddText(window->Pos + ImVec2(55 * g.IO.GUIScale, 595 * g.IO.GUIScale), ImColor(Colors::AccentDisabled), "Till:");
     window->DrawList->AddText(window->Pos + ImVec2(80 * g.IO.GUIScale, 595 * g.IO.GUIScale), ImColor(Colors::Accent), "31.12 23:59");
 
-    auto Logo = "NEVERLOSE";
+    auto Logo = "EZCRACK";
     ImGui::PushFont( g.IO.Fonts->Fonts[ 1 ] );
     if (Colors::theme != 2)
         window->DrawList->AddText(window->Pos + ImVec2(w / 2.f - CalcTextSize(Logo).x / 2.f - 1, 14), ImColor(Colors::Accent), Logo);

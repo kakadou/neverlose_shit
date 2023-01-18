@@ -57,12 +57,12 @@ void misc::watermark()
 
 	if (c_menu::get().menu_style != 2)
 	{
-		render::get().text(fonts[DAMAGE_MARKER], x + 6, 15, ImColorConvert(Colors::Accent), HFONT_CENTERED_NONE, "NEVERLOSE");
-		render::get().text(fonts[DAMAGE_MARKER], x + 7, 14, ImColorConvert(Colors::TextActive), HFONT_CENTERED_NONE, "NEVERLOSE");
+		render::get().text(fonts[DAMAGE_MARKER], x + 6, 15, ImColorConvert(Colors::Accent), HFONT_CENTERED_NONE, "EZCRACK");
+		render::get().text(fonts[DAMAGE_MARKER], x + 7, 14, ImColorConvert(Colors::TextActive), HFONT_CENTERED_NONE, "EZCRACK");
 	}
 	else
 	{
-		render::get().text(fonts[DAMAGE_MARKER], x + 6, 15, ImColorConvert(Colors::TextActive), HFONT_CENTERED_NONE, "NEVERLOSE");
+		render::get().text(fonts[DAMAGE_MARKER], x + 6, 15, ImColorConvert(Colors::TextActive), HFONT_CENTERED_NONE, "EZCRACK");
 	}
 }
 

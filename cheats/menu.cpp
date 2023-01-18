@@ -195,16 +195,16 @@ void c_menu::draw_info_window(bool open, int* scale, int* color, float* speed)
             ImGui::Spacing(); ImGui::SetCursorPos(ImVec2(25, 120 * ImGui::GetIO().GUIScale));
             ImGui::TextColored(Colors::TextActive, "Version:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "3.0");
             ImGui::Spacing(); ImGui::SetCursorPosX(25);
-            ImGui::TextColored(Colors::TextActive, "Build date:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "Sep 30 2022");
+            ImGui::TextColored(Colors::TextActive, "Build date:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "Jan 18 2023");
             ImGui::Spacing(); ImGui::SetCursorPosX(25);
-            ImGui::TextColored(Colors::TextActive, "Build type:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "Alpha");
+            ImGui::TextColored(Colors::TextActive, "Build type:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "Dev");
             ImGui::Spacing(); ImGui::SetCursorPosX(25);
             ImGui::TextColored(Colors::TextActive, "Registered to:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, g_ctx.username.c_str());
             ImGui::Spacing(); ImGui::SetCursorPosX(25);
-            ImGui::TextColored(Colors::TextActive, "Subscription till:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "31.12.2022 23:59");
+            ImGui::TextColored(Colors::TextActive, "Subscription till:"); ImGui::SameLine(); ImGui::TextColored(Colors::Accent, "31.12.2029 23:59");
             ImGui::Spacing(); ImGui::Spacing(); ImGui::Spacing();
-            ImGui::SetCursorPosX(ImGui::GetWindowSize().x / 2 - ImGui::CalcTextSize("neverlose.cc - 2022").x / 2);
-            ImGui::TextColored(Colors::TextActive, "neverlose.cc - 2022");
+            ImGui::SetCursorPosX(ImGui::GetWindowSize().x / 2 - ImGui::CalcTextSize("ezcrack.cc - 2023").x / 2);
+            ImGui::TextColored(Colors::TextActive, "neverlose.cc - 2023");
         }
         ImGui::EndGroup();
     }
