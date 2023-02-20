@@ -1,8 +1,0 @@
-﻿  menu.cpp
-LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  正在生成代码
-  1663 of 22509 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    764 functions had inline decision re-evaluated but remain unchanged
-  已完成代码的生成
-  Shonax.vcxproj -> D:\code\neverlose_shit\build\Win32\Release\niggapoop.dll
